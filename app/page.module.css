@@ -1,0 +1,126 @@
+/* .mytable {
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+  .th, .td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .tableheader {
+    padding: 40px;
+    margin: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .mytable {
+      width: auto;
+    }
+  
+    .th, .td {
+      display: block;
+      text-align: center;
+    }
+  }
+   */
+
+  .button {
+    color: grey;
+    border: 2px solid blue;
+    border-radius: 4px;
+  }
+
+   .usersTableContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: linear-gradient(to right, #f2f2f2, #e6f2ff);
+  }
+  
+  .pageSizeSelector {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .userTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px;
+  }
+  
+  .tableHeader {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .tableHeaderCell {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tbody .tableheader {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tbody .tableHeader:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .tbody .td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .pagination .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Media queries for responsive layout */
+  
+  @media (max-width: 768px) {
+    .userTable {
+      width: auto;
+    }
+  
+    .tableHeaderCell {
+      text-align: center;
+    }
+  
+    .tbody .td {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .usersTableContainer {
+      padding: 10px;
+    }
+  
+    .pagination {
+      flex-direction: column;
+    }
+  }
+  
